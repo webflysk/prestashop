@@ -12,8 +12,8 @@ class LNCCofidis extends PaymentModule
     public function __construct()
     {
         $this->name = 'LNCCofidis';
-        $this->version = '1.0.0';
-        $this->author = 'Jan Cinert';
+        $this->version = '1.0.1';
+        $this->author = 'Cofidis SK';
         $this->controllers = array(
             'payment',
             'validation'
