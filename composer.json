@@ -1,0 +1,19 @@
+{
+  "name": "jancinert/lnc-cofidis",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "arvenil/ninja-mutex": "*"
+  },
+  "authors": [
+    {
+      "name": "Jan Cinert",
+      "email": "jan.cinert@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LNC\\Cofidis\\": "src/"
+    }
+  }
+}

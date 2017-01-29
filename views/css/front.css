@@ -1,0 +1,89 @@
+#product_cofidis_block_extra {
+    border: 1px solid #D6D4D4;
+    font-weight: bold;
+    line-height: 18px;
+    margin: 10px 0 15px;
+    padding: 8px 10px 0;
+    background: url(logo.png) 98% 3px no-repeat #FBFBFB;
+    background-size: auto 72px;
+}
+
+#product_cofidis_block_extra ul {
+    padding-top: 2px;
+}
+
+#product_cofidis_block_extra ul li {
+    display: block;
+    line-height: 30px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #product_cofidis_block_extra ul li {
+        display: block;
+        line-height: 20px;
+    }
+}
+
+#product_cofidis_block_extra ul a {
+    text-decoration: none;
+    color: #777;
+    position: relative;
+    margin-right: 8px;
+    line-height: 30px;
+    padding: 0;
+    display: inline-block;
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+    #product_cofidis_block_extra ul a {
+        float: none;
+        line-height: 20px;
+    }
+}
+
+#product_cofidis_block_extra ul a:before {
+    background: #929292;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    font-family: "FontAwesome";
+    font-size: 15px;
+    font-weight: normal;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 6px;
+    text-align: center;
+    width: 30px;
+    /*max 1199px*/
+}
+
+@media (max-width: 1199px) {
+    #product_cofidis_block_extra ul a:before {
+        display: none;
+    }
+}
+
+#product_cofidis_block_extra ul a:hover {
+    color: #333;
+}
+
+p.payment_module a.cofidis {
+    background: url(logo2.png) 0px 0px no-repeat #fbfbfb;
+    padding: 38px 40px 33px 279px;
+}
+
+p.payment_module a.cofidis:after {
+    display: block;
+    content: "\f054";
+    position: absolute;
+    right: 15px;
+    margin-top: -11px;
+    top: 50%;
+    font-family: "FontAwesome";
+    font-size: 25px;
+    height: 22px;
+    width: 14px;
+    color: #777;
+}
